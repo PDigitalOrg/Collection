@@ -1,0 +1,25 @@
+{
+    "name": "pdigital/collection",
+    "type": "library",
+    "description": "PDigital Collection Component",
+    "keywords": ["collection"],
+    "homepage": "http://pdigital.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jorge Torres",
+            "email": "jorge.torres@pdigital.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.4.*@dev"
+    },
+    "autoload": {
+        "psr-0": { "PDigitalOrg\\Component\\Collection\\": "" }
+    },
+    "target-dir": "PDigitalOrg/Component/Collection",
+    "minimum-stability": "dev"
+}
